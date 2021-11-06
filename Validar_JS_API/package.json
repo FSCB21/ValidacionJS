@@ -1,0 +1,21 @@
+{
+  "name": "validarjs",
+  "description": "El siguiente proyecto hace parte de una practica de evaluacion de conocimientos para la valdacion de la materia de JavaScript Avanzado.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": {
+    "name": "Freddy Calderon",
+    "email": "freddystibencb@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon start"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "mysql2": "^2.3.2",
+    "sequelize": "^6.7.0"
+  }
+}

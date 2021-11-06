@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.ContenGeneral {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.seccionCarousel {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.estilosImg {
+  filter: opacity(80%);
+}

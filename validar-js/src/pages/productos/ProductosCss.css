@@ -1,0 +1,72 @@
+.imgStyle {
+  position: relative;
+  z-index: 100;
+  top: 0;
+}
+.imgStyle2 {
+  top: -50px !important;
+  animation: MoverArriba 2s forwards;
+}
+.imgStyle3 {
+  top: 0px !important;
+  animation: MoverAbajo 1s forwards;
+}
+
+.butonsCard {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buton-Rounded {
+  border-radius: 100px !important;
+}
+
+.productosOrden {
+  width: 100%;
+  display: flex;
+}
+
+.paginationDiv {
+  position: fixed;
+  right: 1rem;
+  display: flex;
+  height: 100%;
+  width: 10%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenProds {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toast-conten {
+  z-index: 10000;
+  position: fixed !important;
+}
+.toastFix {
+  position: fixed;
+  right: 1rem;
+}
+
+@keyframes MoverArriba {
+  0% {
+    border-radius: 0%;
+  }
+  100% {
+    border-radius: 100%;
+  }
+}
+@keyframes MoverAbajo {
+  0% {
+    border-radius: 100%;
+  }
+  100% {
+    border-radius: 0%;
+  }
+}
